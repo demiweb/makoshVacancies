@@ -246,13 +246,20 @@
 <!-- End Google Tag Manager (noscript) -->
 
 
-<header style="display: none">
+<header>
     <div id="top" class="top-menu">
         <div class="container">
 
 
+
+
+
+
         </div>
     </div>
+
+
+
 
 
     <div class="container">
@@ -262,16 +269,29 @@
             <div class="header-block__item col-xs-4">
                 <div class="menu__header" data-toggle="collapse" data-target=".main-menu__collapse"></div>
                 <div class="header-phones">
-                    <span class="header-phones__main uni-href" data-href="tel:+380670001005">+38 067 000 10 05</span>
+                    <span class="header-phones__main uni-href" data-href="tel:+380670001005" >+38 067 000 10 05</span>
 
                 </div>
+                <!-- 17.02.2022 -->
+                <div class="header-location btn-modal-loc">
+                    <div class="deliv-region">
+                        <i class="foot-map"></i>
+                        <span>Ваш регіон доставки:</span>
+                        <p>Львівська область</p>
+                    </div>
+                    <div class="deliv-tooltip">
+                        <span>Оберіть ваш регіон доставки:</span>
+                        <p>Ми зможемо запропонувати найкращу ціну для вашої області.</p>
+                    </div>
+                </div>
+
+                <!-- 17.02.2022 -->
             </div>
 
 
             <div class="header-block__item col-xs-4">
                 <div id="logo" class="header-logo">
-                    <img src="https://makosh-group.com.ua/image/catalog/1new/makosh_logo_ua_orange.png" title="Макош"
-                         alt="Макош" class="header-logo__img img-responsive"/>
+                    <a href="https://makosh-group.com.ua/"><img src="https://makosh-group.com.ua/image/catalog/1new/makosh_logo_ua_orange.png" title="Makosh" alt="Makosh" class="img-responsive" /></a>
                 </div>
             </div>
 
@@ -281,16 +301,10 @@
                     <div id="search" class="header-block__item hidden-xs">
                         <div class="header-search">
                             <div class="header-search__form">
-                                <input type="text" name="search" value="" placeholder="Пошук" aria-label="Search"
-                                       class="header-search__input form-control"/>
-                                <button type="button" class="header-search__btn search-btn"><i class="fa fa-search"></i>
-                                </button>
+                                <input type="text" name="search" value="" placeholder="Пошук" aria-label="Search" class="header-search__input form-control" />
+                                <button type="button" class="header-search__btn search-btn"><i class="fa fa-search"></i></button>
                             </div>
-                            <div class="live-search" style="display:none">
-                                <ul class="live-search__ul">
-                                    <li class="loading"></li>
-                                </ul>
-                            </div>
+                            <div class="live-search" style="display:none"><ul class="live-search__ul"><li class="loading"></li></ul></div>
                         </div>
                     </div>
 
@@ -304,13 +318,13 @@
 </button>
 <ul class="dropdown-menu dropdown-menu-right">
 <li>
-<a href="https://makosh-group.com.ua/" onclick="window.location = 'https://makosh-group.com.ua/'"> UA</a>
+<a href="https://makosh-group.com.ua/work/" onclick="window.location = 'https://makosh-group.com.ua/work/'"> UA</a>
 </li>
 <li>
-<a href="https://makosh-group.com.ua/ru" onclick="window.location = 'https://makosh-group.com.ua/ru'"> RU</a>
+<a href="https://makosh-group.com.ua/ru/work/" onclick="window.location = 'https://makosh-group.com.ua/ru/work/'"> RU</a>
 </li>
 <li>
-<a href="https://makosh-group.com.ua/en" onclick="window.location = 'https://makosh-group.com.ua/en'"> EN</a>
+<a href="https://makosh-group.com.ua/en/work/" onclick="window.location = 'https://makosh-group.com.ua/en/work/'"> EN</a>
 </li>
 </ul>
 </div>
@@ -320,20 +334,19 @@
                     </div>
 
 
-                    <div class="header-block__item">
-                        <div id="cart" class="header-cart">
-                            <button data-toggle="dropdown" class="header-cart__btn dropdown-toggle">
-                                <i class="header-cart__icon"></i>
-                                <span id="cart-total" class="header-cart__total-items">0</span>
-                            </button>
-                            <div class="header-cart__dropdown dropdown-menu pull-right">
-                                <div class="header-cart__empty">Ваш кошик порожній :(</div>
-                            </div>
-                            <script>
-                                var uni_incart_products = [];
-                            </script>
+
+                    <div class="header-block__item"><div id="cart" class="header-cart">
+                        <button data-toggle="dropdown" class="header-cart__btn dropdown-toggle">
+                            <i class="header-cart__icon"></i>
+                            <span id="cart-total" class="header-cart__total-items">0</span>
+                        </button>
+                        <div class="header-cart__dropdown dropdown-menu pull-right">
+                            <div class="header-cart__empty">Ваш кошик порожній :(</div>
                         </div>
-                    </div>
+                        <script>
+                            var uni_incart_products = [];
+                        </script>
+                    </div></div>
                 </div>
             </div>
 
@@ -356,21 +369,16 @@
                                 <a class="menu__level-1-a chevron " href="https://makosh-group.com.ua/produktsja/">
                                     Продукція
                                 </a>
-                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i
-                                        class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
+                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
                                 <div class="menu__level-2 column-1">
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_61  "
-                                               href="https://makosh-group.com.ua/produktsja/mindobriva/">Мінеральні
-                                                добрива</a>
+                                            <a class="menu__level-2-a catid_61  " href="https://makosh-group.com.ua/produktsja/mindobriva/">Мінеральні добрива</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_59  "
-                                               href="https://makosh-group.com.ua/produktsja/mkrodobriva/">Добрива для
-                                                позакореневого живлення</a>
+                                            <a class="menu__level-2-a catid_59  " href="https://makosh-group.com.ua/produktsja/mkrodobriva/">Добрива для позакореневого живлення</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -379,56 +387,46 @@
                                 <a class="menu__level-1-a chevron " href="https://makosh-group.com.ua/cultures/">
                                     Культури
                                 </a>
-                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i
-                                        class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
+                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
                                 <div class="menu__level-2 column-1">
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_68  "
-                                               href="https://makosh-group.com.ua/cultures/zernovi/">Зернові</a>
+                                            <a class="menu__level-2-a catid_68  " href="https://makosh-group.com.ua/cultures/zernovi/">Зернові</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_69  "
-                                               href="https://makosh-group.com.ua/cultures/kukurudza/">Кукурудза</a>
+                                            <a class="menu__level-2-a catid_69  " href="https://makosh-group.com.ua/cultures/kukurudza/">Кукурудза</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_64  "
-                                               href="https://makosh-group.com.ua/cultures/ovochevi/">Овочеві</a>
+                                            <a class="menu__level-2-a catid_64  " href="https://makosh-group.com.ua/cultures/ovochevi/">Овочеві</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_63  "
-                                               href="https://makosh-group.com.ua/cultures/plodovo-yagidni/">Плодово-ягідні</a>
+                                            <a class="menu__level-2-a catid_63  " href="https://makosh-group.com.ua/cultures/plodovo-yagidni/">Плодово-ягідні</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_67  "
-                                               href="https://makosh-group.com.ua/cultures/ripak/">Ріпак</a>
+                                            <a class="menu__level-2-a catid_67  " href="https://makosh-group.com.ua/cultures/ripak/">Ріпак</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_70  "
-                                               href="https://makosh-group.com.ua/cultures/sonyashnik/">Соняшник</a>
+                                            <a class="menu__level-2-a catid_70  " href="https://makosh-group.com.ua/cultures/sonyashnik/">Соняшник</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_66  "
-                                               href="https://makosh-group.com.ua/cultures/soya/">Соя</a>
+                                            <a class="menu__level-2-a catid_66  " href="https://makosh-group.com.ua/cultures/soya/">Соя</a>
                                         </li>
                                     </ul>
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
-                                            <a class="menu__level-2-a catid_65  "
-                                               href="https://makosh-group.com.ua/cultures/tsukrovij-buryak/">Цукровий
-                                                буряк</a>
+                                            <a class="menu__level-2-a catid_65  " href="https://makosh-group.com.ua/cultures/tsukrovij-buryak/">Цукровий буряк</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -444,7 +442,7 @@
                                 </a>
                             </li>
                             <li class="menu__level-1-li ">
-                                <a class="menu__level-1-a  " href="/hiring/">
+                                <a class="menu__level-1-a  " href="/work/">
                                     Вакансії
                                 </a>
                             </li>
@@ -452,8 +450,7 @@
                                 <a class="menu__level-1-a chevron " href="blog/">
                                     Блог
                                 </a>
-                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i
-                                        class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
+                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
                                 <div class="menu__level-2 column-1">
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
@@ -471,8 +468,7 @@
                                 <a class="menu__level-1-a chevron " href="contact/">
                                     Контакти
                                 </a>
-                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i
-                                        class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
+                                <span class="menu__pm menu__level-1-pm visible-xs visible-sm"><i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></span>
                                 <div class="menu__level-2 column-1">
                                     <ul class="menu__level-2-ul col-md-12">
                                         <li class="menu__level-2-li">
@@ -487,34 +483,47 @@
                                     <div class="topsoc_sep"></div>
 
                                     <div class="topsoc">
-                                        <a href="https://www.youtube.com/channel/UC20-Mu8kf9u6VlYAYdpnRIg?view_as=subscriber"
-                                           target="_blank" rel=”nofollow”><i
-                                                class="footer__socials-icon fab fa-youtube"></i></a>
-                                        <a href="https://www.facebook.com/kompanymakosh/" target="_blank"
-                                           rel=”nofollow”><i class="footer__socials-icon fab fa-facebook"></i></a>
-                                        <a href="https://www.instagram.com/insta_agronom/" target="_blank"
-                                           rel=”nofollow”><i class="footer__socials-icon fab fa-instagram"></i></a>
+                                        <a href="https://www.youtube.com/channel/UC20-Mu8kf9u6VlYAYdpnRIg?view_as=subscriber" target="_blank" rel=”nofollow”><i class="footer__socials-icon fab fa-youtube"></i></a>
+                                        <a href="https://www.facebook.com/kompanymakosh/" target="_blank" rel=”nofollow”><i class="footer__socials-icon fab fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/insta_agronom/" target="_blank" rel=”nofollow”><i class="footer__socials-icon fab fa-instagram"></i></a>
                                     </div>
 
 
                                 </div>
                             </li>
+                            <li>
+                                <!-- 17.02.2022 -->
+                                <div class="header-location btn-modal-loc">
+                                    <div class="deliv-region">
+                                        <i class="foot-map"></i>
+                                        <span>Ваш регіон доставки:</span>
+                                        <p>Львівська область</p>
+                                    </div>
+
+                                </div>
+
+                                <!-- 17.02.2022 -->
+                            </li>
                         </ul>
+
                     </nav>
+
+
+
                 </div>
                 <script>uniMenuUpd('.menu2 .menu__collapse');
 
-                $(document).ready(function () {
-                    var url = document.location.href;
-                    $.each($("#menu a"), function () {
-                        if (url.indexOf(this.href) >= 0) {
+                $(document).ready(function(){
+                    var url=document.location.href;
+                    $.each($("#menu a"),function(){
+                        if(url.indexOf(this.href)>=0){
                             $(this).addClass('active');
-                        }
-                        ;
+                        };
                     });
                 });
 
                 </script>
+
 
 
             </div>
@@ -525,11 +534,12 @@
         // we are using this flag to determine if the customer chat
         // is successfully added to the header
         window.isFacebookCustomerChatInHeaderAdded = 1;
-        window.isFacebookCustomerChatAdded = 1;
+        window.isFacebookCustomerChatAdded=1;
     </script>
 
 
 </header>
+
 <!--new-->
 <main>
     <div class="content-top">
@@ -594,7 +604,7 @@
                         <div class="comp-hist__head">
                             <p>Історії успіху</p>
                         </div>
-                        <div id="review_banner-0" class="review_banners_wrap owl-carousel">
+                        <div id="review_banner-0" class="review_banners_wrap ">
 
                             <div class="comp-hist__man">
                                 <div class="comp-hist__man-head">
@@ -607,7 +617,7 @@
 
                                     </div>
                                 </div>
-                                <div class="comp-hist__man-text">
+                                <div class="comp-hist__man-text" style="display: none">
 
                                     <p>Компанія «Макош» є дистриб’ютором мінеральних та мікродобрив. Ми –
                                         молода, енергійна та
@@ -713,24 +723,7 @@
                 </div>
             </div>
 
-            <script>
-                var hide = false;
 
-                if (!hide || hide && $(window).width() > 767) {
-                    $('#review_banner-0').owlCarousel({
-                        items: 1,
-                        autoplay: true,
-                        animateIn: 'fadeIn',
-                        animateOut: 'fadeOut',
-                        autoplayTimeout: 5000,
-                        autoplayHoverPause: true,
-                        nav: true,
-                        dots: false,
-                        loop: true,
-                        navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-                    });
-                }
-            </script>
 
             <div class="html-module">
                 <div class="row row-flex main_advantage">
@@ -1318,6 +1311,65 @@
     </div>
     <div class="modal-backdrop in"></div>
 </div>
+<div class="modal  animated in modal-window loc modal-open fade ">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" class="close modal-close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+               <div class="modal-region-deliv">
+                   <div class="modal-region__head">
+                       <div class="log">
+                           <img src="/image/catalog/1new/makosh_logo_ua_orange.png" title="Makosh-logo"
+                                alt="Makosh-logo"
+                                class="footer-logo__img img-responsive"/>
+                       </div>
+                       <div class="modal-region__txt">
+                           <i class="foot-map"></i>
+                           <span>Оберіть ваш регіон доставки:</span>
+                           <p>Ми зможемо запропонувати найкращу ціну для вашої області.</p>
+                       </div>
+                   </div>
+                   <div class="modal-region__cont">
+                       <ul>
+                           <li><a href="">Київська область</a></li>
+                           <li><a href="">Вінницька область</a></li>
+                           <li><a href="">Волинська область</a></li>
+                           <li><a href="">Дніпропетровська область</a></li>
+                           <li><a href="" class="disabled">Донецька область</a></li>
+                           <li><a href="">Житомирська область</a></li>
+                           <li><a href="">Закарпатська область</a></li>
+                           <li><a href="">Запорізька область</a></li>
+                           <li><a href="">Івано-Франківська область</a></li>
+                           <li><a href="">Кіровоградська область</a></li>
+                           <li><a href="" class="disabled">Крим</a></li>
+                           <li><a href="" class="disabled">Луганська область</a></li>
+                           <li><a href="" class="active">Львівська область</a></li>
+                           <li><a href="">Миколаївська область</a></li>
+                           <li><a href="">Одеська область</a></li>
+                           <li><a href="">Полтавська область</a></li>
+                           <li><a href="">Рівненська область</a></li>
+                           <li><a href="">Сумська область</a></li>
+                           <li><a href="">Тернопільська область</a></li>
+                           <li><a href="">Харківська область</a></li>
+                           <li><a href="" class="disabled">Херсонська область</a></li>
+                           <li><a href="">Хмельницька область</a></li>
+                           <li><a href="">Черкаська область</a></li>
+                           <li><a href="">Чернівецька область</a></li>
+                           <li><a href="">Чернігівська область</a></li>
+
+                       </ul>
+
+                   </div>
+
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop in"></div>
+</div>
 
 <script>
     let headCompVac = [...document.querySelectorAll('.comp-vacancy__head')];
@@ -1362,6 +1414,41 @@
         }
     }
     controlModalVac();
+
+
+//    17.02.2022
+
+
+    let btnModalLoc = [...document.querySelectorAll('.btn-modal-loc')];
+    let modalLoc = [...document.querySelectorAll('.modal-window.loc')][0];
+
+    function controlModalLoc() {
+        if (btnModalLoc.length) {
+            btnModalLoc.forEach((btn) => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    document.body.classList.add('modal-open');
+                    modalLoc.classList.add('fade');
+
+                });
+            });
+
+            let close = modalLoc.querySelector('.modal-close');
+            let backdrp = modalLoc.querySelector('.modal-backdrop');
+            close.addEventListener('click', () => {
+                close.closest('.modal-window').classList.remove('fade');
+                document.body.classList.remove('modal-open');
+            });
+            backdrp.addEventListener('click', () => {
+                close.closest('.modal-window').classList.remove('fade');
+                document.body.classList.remove('modal-open');
+            })
+        }
+    }
+    controlModalLoc();
+
+//    17.02.2022
 </script>
 <!--new-->
 
