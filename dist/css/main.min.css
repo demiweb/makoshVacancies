@@ -12,7 +12,9 @@
           align-items: flex-start;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start; }
+          justify-content: flex-start;
+  position: relative;
+  z-index: 2; }
 
 .modal-region__head {
   width: 100%;
@@ -52,6 +54,16 @@
       padding-left: 55px;
       padding-right: 55px;
       padding-bottom: 40px; }
+      .modal-window.loc .modal-content .modal-body::before {
+        position: absolute;
+        width: 92px;
+        height: 101px;
+        display: inline-block;
+        content: '';
+        bottom: 0;
+        left: 0;
+        background: url("../image/collos-ic.png") no-repeat center/100%;
+        z-index: 1; }
 
 .modal-region__cont {
   width: 100%; }
